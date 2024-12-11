@@ -1,8 +1,3 @@
-# MY-OSS
-개인과제 
-- OSS 교과목 내용(Git & GitHub)의 정리
-  - 자기주도학습에 의해 하나의 저장소 생성 후 구축
-<h1 align="left">Hey 👋 What's up?</h1>
 
 ###
 
@@ -50,5 +45,10 @@
 ###
 
 
+# MY-OSS
+개인과제 
+- OSS 교과목 내용(Git & GitHub)의 정리
+  - 자기주도학습에 의해 하나의 저장소 생성 후 구축
+<h1 align="left">Hey 👋 What's up?</h1>
 
 ###
