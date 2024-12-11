@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bf9122c6c9009e047c97e0973e1d5231 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bf9122c6c9009e047c97e0973e1d5231" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bf9122c6c9009e047c97e0973e1d5231 = L.map(
+                "map_bf9122c6c9009e047c97e0973e1d5231",
+                {
+                    center: [37.5007, 126.8677],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+
+            
+
+        
+    
+            var tile_layer_5c0e9709027ce5dfb9fc0a6d60a5dc87 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5c0e9709027ce5dfb9fc0a6d60a5dc87.addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+        
+    
+            var marker_2aab8078c0a5b88c55a72c009b01574d = L.marker(
+                [37.4661, 126.9311],
+                {}
+            ).addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+        
+    
+            marker_2aab8078c0a5b88c55a72c009b01574d.bindTooltip(
+                `<div>
+                     우리집
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_884c8832f40388c5bedcb03efa9bbd63 = L.marker(
+                [37.4704, 126.9347],
+                {}
+            ).addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+        
+    
+            marker_884c8832f40388c5bedcb03efa9bbd63.bindTooltip(
+                `<div>
+                     헬스장
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f21e7100003db8c3954fac5a69ac4cfe = L.circle(
+                [37.4833, 126.9294],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+        
+    
+            circle_f21e7100003db8c3954fac5a69ac4cfe.bindTooltip(
+                `<div>
+                     알바
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f03270dc55df494f387277b8e06322c = L.marker(
+                [37.4829, 126.9291],
+                {}
+            ).addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+        
+    
+            marker_4f03270dc55df494f387277b8e06322c.bindTooltip(
+                `<div>
+                     술집1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8f5cd52d31815c7a265825ea7b103422 = L.circle(
+                [37.4647, 126.9258],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+        
+    
+            circle_8f5cd52d31815c7a265825ea7b103422.bindTooltip(
+                `<div>
+                     출신 중,고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e81e4f73cef1873f92010077f513512b = L.marker(
+                [37.4832, 126.9578],
+                {}
+            ).addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+        
+    
+            marker_e81e4f73cef1873f92010077f513512b.bindTooltip(
+                `<div>
+                     출신 초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e907b529dca2dee324999b5d4bd878b5 = L.marker(
+                [38.1567, 128.204],
+                {}
+            ).addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+        
+    
+            marker_e907b529dca2dee324999b5d4bd878b5.bindTooltip(
+                `<div>
+                     군대
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_810399012986fb71a4c1a37c6d38b5fd = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_205edad726f260d5783e49760d7529d1 = L.marker(
+                [37.5007, 126.8677],
+                {}
+            ).addTo(marker_cluster_810399012986fb71a4c1a37c6d38b5fd);
+        
+    
+            var marker_e5604144d84e55fb7bdbf8ea3a662b8b = L.marker(
+                [37.4661, 126.9311],
+                {}
+            ).addTo(marker_cluster_810399012986fb71a4c1a37c6d38b5fd);
+        
+    
+            var marker_d5e2e66575133211330d0ee213e900b9 = L.marker(
+                [37.4704, 126.9347],
+                {}
+            ).addTo(marker_cluster_810399012986fb71a4c1a37c6d38b5fd);
+        
+    
+            var marker_e47200d059d6880e71c9842430a42298 = L.marker(
+                [37.4833, 126.9294],
+                {}
+            ).addTo(marker_cluster_810399012986fb71a4c1a37c6d38b5fd);
+        
+    
+            var marker_eabcf17b7ed24b0ed4e7d30db9ca473e = L.marker(
+                [37.4829, 126.9291],
+                {}
+            ).addTo(marker_cluster_810399012986fb71a4c1a37c6d38b5fd);
+        
+    
+            var marker_83139b0dad920b26319d5fe6f3229abb = L.marker(
+                [37.4647, 126.9258],
+                {}
+            ).addTo(marker_cluster_810399012986fb71a4c1a37c6d38b5fd);
+        
+    
+            var marker_b275b884f8d58ed1ee42ae885d22c000 = L.marker(
+                [37.4832, 126.9578],
+                {}
+            ).addTo(marker_cluster_810399012986fb71a4c1a37c6d38b5fd);
+        
+    
+            var marker_4b6b26b003870acd2495810ff12b8ace = L.marker(
+                [38.1567, 128.204],
+                {}
+            ).addTo(marker_cluster_810399012986fb71a4c1a37c6d38b5fd);
+        
+    
+            marker_cluster_810399012986fb71a4c1a37c6d38b5fd.addTo(map_bf9122c6c9009e047c97e0973e1d5231);
+        
+</script>
+</html>
